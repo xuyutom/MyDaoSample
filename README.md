@@ -10,7 +10,7 @@ docker build -t daocloud/go-mongo .
 * MONGODB_PASSWORD /* leave empty by default */
 * MONGODB_INSTANCE_NAME=test
 
-# Run Container
+# Run Container for xu
 docker run --link your_mongo:mongodb -d -p 80:80 daocloud/go-mongo
 
 # That's it
